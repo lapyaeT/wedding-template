@@ -1,0 +1,57 @@
+.image {
+    width: 100%;
+    height: 400px;background-image: url(../images/wedding\ gift.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.gift__container {
+    width: 100%;
+    height: 400px;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gift i {
+    font-size: 2rem;
+    color: #FFA07A;
+    margin-bottom: 1.2rem;
+}
+
+.gift__text h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.6rem;
+    color: rgb(233, 223, 223);
+}
+
+.gift__text p {
+    text-align: center;
+    color: rgb(233, 223, 223);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    padding-bottom: 0.4rem;
+}
+
+.send__gift {
+    margin-top: 1.6rem;
+    background-color: #FFA07A;
+    width: 80px;
+    height: 24px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    border: none;
+    transition: 3s all;
+}
+
+.send__gift:hover {
+    -webkit-box-shadow: 5px 5px 30px 3px rgba(0,0,0,0.76); 
+    box-shadow: 5px 5px 30px 3px rgba(0,0,0,0.76);
+}

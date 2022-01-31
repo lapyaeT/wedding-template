@@ -1,0 +1,111 @@
+.photo__container {
+    width: 100%;
+    height: 640px;
+}
+
+.photo__container-header h3 {
+    text-align: center;
+    font-family: logofont;
+    font-size: 24px;
+    color: rgb(211, 118, 133);
+    padding-top: 2rem;
+}
+
+.photo__container-header p {
+    text-align: center;
+    color: #696969;
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.album__container {
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 176px;
+    margin-bottom: 0.8rem;
+}
+
+.album__container-item1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 2;
+    background-color: rgb(192,192,192);
+}
+
+.album__container-item2 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column: 3 / span 2;
+    background-color: rgb(192,192,192);
+    margin: 0 0 0.8rem 0.8rem;
+}
+
+.album__container-item3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-color: rgb(192,192,192);
+    margin: 0 0 0 0.8rem;
+}
+
+.album__container-item4 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-color: rgb(192,192,192);
+    margin: 0 0 0 0.8rem;
+}
+
+.album__container-item5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    background-color: rgb(192,192,192);
+    margin-right: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.album__container-item6 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: rgb(105,105,105);
+    margin-top: 0.8rem;
+}
+
+.album__container-item7 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column: 3 / span 2;
+    background-color: rgb(192,192,192);
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.album__footer {
+    width: 100%;
+    height: 40px;
+    margin-top: 2rem;
+}
+
+.album__footer i {
+    padding: auto 0;
+    margin-left: 49%;
+    font-size: 1.5rem;
+    color:rgb(192,192,192);
+}
+
+.album__container-image{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.album__container-image:hover {
+    opacity: 1;
+}
+

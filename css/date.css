@@ -1,0 +1,97 @@
+.date {
+    width: 100%;
+    height: 100px;
+    background-color: #FFF5EE;
+}
+
+.date__container {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: start;
+}
+
+.date__container-right {
+    display: flex;
+}
+
+.date__container-right i{
+    font-size: 32px;
+    color: rgb(255,127,80);
+}
+
+.date__container-right p {
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+    color: #666666 ;
+    font-weight: 300;
+    font-size: 32px;
+    font-family: 'Dongle', sans-serif;
+}
+.date__container-left {
+    display: flex;
+}
+
+.date__container-left-days {
+    margin-left: 7rem;
+}
+
+.date__container-left-days h3 {
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0.5rem;
+}
+
+.date__container-left-days p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.date__container-heart {
+    margin: 2rem;
+}
+
+.date__container-heart {
+    font-size: 8px;
+    padding-top: 0.2rem;
+    color: rgb(255,127,80);
+}
+
+.date__container-left-hours h3 {
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0.5rem;
+}
+
+.date__container-left-hours p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.date__container-left-minute h3 {
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0.5rem;
+}
+
+.date__container-left-minute p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.date__container-left-second h3 {
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0.5rem;
+}
+
+.date__container-left-second p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.color {
+    color: #a8a8a8;
+}

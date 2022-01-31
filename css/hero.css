@@ -1,0 +1,82 @@
+.hero__container {
+    display: flex;
+    width: 100%;
+    height: 480px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/what-every-marriage-needs-most-5zxswb1f-b45ddbf36169cacea53630384d17ad9c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.hero__container-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__container-title h3 {
+    font-size: 32px;
+    font-family: logofont;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.hero__container-title p {
+    font-size: 40px;
+    color: white;   
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero__container-items {
+    display: flex;
+}
+
+.hero__container-items video {
+    width: 180px;
+    margin-right: 2rem;
+}
+
+.hero__container-items-test {
+    max-width: 160px;
+}
+
+.hero__container-items-test h3{
+    font-size: 20px;
+    font-family: logofont;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 0.6rem;
+}
+
+.hero__container-items-test p {
+    font-size: 20px;
+    color: rgb(211,211,211);
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+}
+
+.hero__container-footer {
+    display: flex;
+    margin-top: 50px;
+
+}
+.hero__container-footer span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 0.4rem;
+    transition: 3s all;
+}
+
+.hero__container-footer span:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
