@@ -36,6 +36,7 @@
     grid-column: 1/ span 2;
     grid-row: 1 / span 2;
     background-color: rgb(192,192,192);
+    overflow: hidden;
 }
 
 .album__container-item2 {
@@ -44,6 +45,7 @@
     grid-column: 3 / span 2;
     background-color: rgb(192,192,192);
     margin: 0 0 0.8rem 0.8rem;
+    overflow: hidden;
 }
 
 .album__container-item3 {
@@ -51,6 +53,7 @@
     grid-row-start: 2;
     background-color: rgb(192,192,192);
     margin: 0 0 0 0.8rem;
+    overflow: hidden;
 }
 
 .album__container-item4 {
@@ -58,6 +61,7 @@
     grid-row-start: 2;
     background-color: rgb(192,192,192);
     margin: 0 0 0 0.8rem;
+    overflow: hidden;
 }
 
 .album__container-item5 {
@@ -66,6 +70,7 @@
     background-color: rgb(192,192,192);
     margin-right: 0.8rem;
     margin-top: 0.8rem;
+    overflow: hidden;
 }
 
 .album__container-item6 {
@@ -73,6 +78,7 @@
     grid-row-start: 3;
     background-color: rgb(105,105,105);
     margin-top: 0.8rem;
+    overflow: hidden;
 }
 
 .album__container-item7 {
@@ -82,6 +88,7 @@
     background-color: rgb(192,192,192);
     margin-left: 0.8rem;
     margin-top: 0.8rem;
+    overflow: hidden;
 }
 
 .album__footer {
@@ -99,7 +106,7 @@
 
 .album__container-image{
     width: 100%;
-    height: 100%;
+    height: auto;
     opacity: 0.5;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -107,5 +114,9 @@
 
 .album__container-image:hover {
     opacity: 1;
+}
+
+.album__container-item2 img {
+    height: 100%;
 }
 
